@@ -1,0 +1,1 @@
+../../../AudioKit/AudioKit/Operations/Function Tables/AKTableValueControl.h

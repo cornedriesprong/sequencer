@@ -1,0 +1,1 @@
+../../../AudioKit/AudioKit/Operations/Mathematical Operations/AKProduct.h

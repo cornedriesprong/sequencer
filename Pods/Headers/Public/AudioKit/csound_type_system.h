@@ -1,0 +1,1 @@
+../../../AudioKit/AudioKit/Libraries/iOS/csound-iOS/headers/csound_type_system.h

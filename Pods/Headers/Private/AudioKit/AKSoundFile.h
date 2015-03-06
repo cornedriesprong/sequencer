@@ -1,0 +1,1 @@
+../../../AudioKit/AudioKit/Operations/Function Tables/Generators/AKSoundFile.h
