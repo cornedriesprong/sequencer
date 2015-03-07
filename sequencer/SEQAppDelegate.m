@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Corné. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SEQAppDelegate.h"
 
-@interface AppDelegate ()
+@interface SEQAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SEQAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

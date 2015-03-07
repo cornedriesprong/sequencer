@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  sequencer
 //
 //  Created by Corné on 07/03/15.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVAudioPlayer.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface SEQViewController : UIViewController <AVAudioPlayerDelegate>
 
 
 @end

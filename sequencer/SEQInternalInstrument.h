@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SEQInternalInstrument.h
 //  sequencer
 //
 //  Created by Corné on 07/03/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AKFoundation.h"
 
-@interface ViewController : UIViewController
-
+@interface SEQInternalInstrument : AKInstrument
 
 @end
-
