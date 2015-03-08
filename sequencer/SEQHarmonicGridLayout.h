@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SEQHarmonicGridLayout.h
 //  sequencer
 //
 //  Created by Corné on 07/03/15.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVAudioPlayer.h>
 
-@interface SEQViewController : UIViewController <AVAudioPlayerDelegate>
-
+@interface SEQHarmonicGridLayout : UICollectionViewFlowLayout
 
 @end
-

@@ -1,5 +1,5 @@
 //
-//  SEQInternalInstrument.h
+//  SEQHarmonicGridViewController.h
 //  sequencer
 //
 //  Created by Corné on 07/03/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AKFoundation.h"
 
-@interface SEQInternalInstrument : AKInstrument
+@interface SEQHarmonicGridCollectionView : UICollectionView
 
 @end

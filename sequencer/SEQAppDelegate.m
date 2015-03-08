@@ -7,8 +7,11 @@
 //
 
 #import "SEQAppDelegate.h"
+#import "SEQHarmonicGridViewController.h"
 
 @interface SEQAppDelegate ()
+
+@property (strong, nonatomic) SEQHarmonicGridViewController *viewController;
 
 @end
 
@@ -17,6 +20,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _viewController = [[SEQHarmonicGridViewController alloc] init];
+    
+    self.window.rootViewController = self.viewController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

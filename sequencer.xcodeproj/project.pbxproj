@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4110D65E1AAA6A3500963C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110D65D1AAA6A3500963C3E /* main.m */; };
 		4110D6611AAA6A3500963C3E /* SEQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110D6601AAA6A3500963C3E /* SEQAppDelegate.m */; };
-		4110D6641AAA6A3500963C3E /* SEQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110D6631AAA6A3500963C3E /* SEQViewController.m */; };
-		4110D6671AAA6A3500963C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4110D6651AAA6A3500963C3E /* Main.storyboard */; };
+		4110D6641AAA6A3500963C3E /* SEQHarmonicGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110D6631AAA6A3500963C3E /* SEQHarmonicGridViewController.m */; };
 		4110D6691AAA6A3500963C3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4110D6681AAA6A3500963C3E /* Images.xcassets */; };
 		4110D66C1AAA6A3500963C3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4110D66A1AAA6A3500963C3E /* LaunchScreen.xib */; };
 		4110D6781AAA6A3600963C3E /* sequencerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110D6771AAA6A3600963C3E /* sequencerTests.m */; };
-		41C08B8B1AAA6B7E001960D9 /* SEQInternalInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C08B8A1AAA6B7E001960D9 /* SEQInternalInstrument.m */; };
+		412FF26A1AAB868700124931 /* SEQHarmonicGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FF2691AAB868700124931 /* SEQHarmonicGridLayout.m */; };
+		416FA7731AAB1C1700CC09C2 /* SEQHarmonicGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 416FA7711AAB1C1700CC09C2 /* SEQHarmonicGridCell.m */; };
+		416FA7741AAB1C1700CC09C2 /* SEQHarmonicGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416FA7721AAB1C1700CC09C2 /* SEQHarmonicGridCell.xib */; };
+		41BD089D1AAB028700020457 /* SEQHarmonicGridCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD089B1AAB028700020457 /* SEQHarmonicGridCollectionView.m */; };
+		41BD089E1AAB028700020457 /* SEQHarmonicGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BD089C1AAB028700020457 /* SEQHarmonicGridViewController.xib */; };
 		C7CAE56E36855A8834D2E7DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4196359D5D5736071C76DB26 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,17 +37,22 @@
 		4110D65D1AAA6A3500963C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4110D65F1AAA6A3500963C3E /* SEQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEQAppDelegate.h; sourceTree = "<group>"; };
 		4110D6601AAA6A3500963C3E /* SEQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEQAppDelegate.m; sourceTree = "<group>"; };
-		4110D6621AAA6A3500963C3E /* SEQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEQViewController.h; sourceTree = "<group>"; };
-		4110D6631AAA6A3500963C3E /* SEQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEQViewController.m; sourceTree = "<group>"; };
-		4110D6661AAA6A3500963C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4110D6621AAA6A3500963C3E /* SEQHarmonicGridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEQHarmonicGridViewController.h; sourceTree = "<group>"; };
+		4110D6631AAA6A3500963C3E /* SEQHarmonicGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEQHarmonicGridViewController.m; sourceTree = "<group>"; };
 		4110D6681AAA6A3500963C3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4110D66B1AAA6A3500963C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4110D6711AAA6A3600963C3E /* sequencerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sequencerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4110D6761AAA6A3600963C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4110D6771AAA6A3600963C3E /* sequencerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sequencerTests.m; sourceTree = "<group>"; };
+		412FF2681AAB868700124931 /* SEQHarmonicGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEQHarmonicGridLayout.h; sourceTree = "<group>"; };
+		412FF2691AAB868700124931 /* SEQHarmonicGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEQHarmonicGridLayout.m; sourceTree = "<group>"; };
+		416FA7701AAB1C1700CC09C2 /* SEQHarmonicGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEQHarmonicGridCell.h; sourceTree = "<group>"; };
+		416FA7711AAB1C1700CC09C2 /* SEQHarmonicGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEQHarmonicGridCell.m; sourceTree = "<group>"; };
+		416FA7721AAB1C1700CC09C2 /* SEQHarmonicGridCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEQHarmonicGridCell.xib; sourceTree = "<group>"; };
 		4196359D5D5736071C76DB26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		41C08B891AAA6B7E001960D9 /* SEQInternalInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEQInternalInstrument.h; sourceTree = "<group>"; };
-		41C08B8A1AAA6B7E001960D9 /* SEQInternalInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEQInternalInstrument.m; sourceTree = "<group>"; };
+		41BD089A1AAB028700020457 /* SEQHarmonicGridCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEQHarmonicGridCollectionView.h; path = ../SEQHarmonicGridCollectionView.h; sourceTree = "<group>"; };
+		41BD089B1AAB028700020457 /* SEQHarmonicGridCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEQHarmonicGridCollectionView.m; path = ../SEQHarmonicGridCollectionView.m; sourceTree = "<group>"; };
+		41BD089C1AAB028700020457 /* SEQHarmonicGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SEQHarmonicGridViewController.xib; path = ../SEQHarmonicGridViewController.xib; sourceTree = "<group>"; };
 		AE1166DFA789C5706459A499 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E997252DD591CCAEFC89DAB5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,11 +109,7 @@
 			children = (
 				4110D65F1AAA6A3500963C3E /* SEQAppDelegate.h */,
 				4110D6601AAA6A3500963C3E /* SEQAppDelegate.m */,
-				4110D6621AAA6A3500963C3E /* SEQViewController.h */,
-				4110D6631AAA6A3500963C3E /* SEQViewController.m */,
-				4110D6651AAA6A3500963C3E /* Main.storyboard */,
-				41C08B891AAA6B7E001960D9 /* SEQInternalInstrument.h */,
-				41C08B8A1AAA6B7E001960D9 /* SEQInternalInstrument.m */,
+				416FA7751AAB1CC400CC09C2 /* Harmonic Grid View */,
 				4110D6681AAA6A3500963C3E /* Images.xcassets */,
 				4110D66A1AAA6A3500963C3E /* LaunchScreen.xib */,
 				4110D65B1AAA6A3500963C3E /* Supporting Files */,
@@ -137,6 +141,23 @@
 				4110D6761AAA6A3600963C3E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		416FA7751AAB1CC400CC09C2 /* Harmonic Grid View */ = {
+			isa = PBXGroup;
+			children = (
+				4110D6621AAA6A3500963C3E /* SEQHarmonicGridViewController.h */,
+				4110D6631AAA6A3500963C3E /* SEQHarmonicGridViewController.m */,
+				41BD089C1AAB028700020457 /* SEQHarmonicGridViewController.xib */,
+				416FA7701AAB1C1700CC09C2 /* SEQHarmonicGridCell.h */,
+				416FA7711AAB1C1700CC09C2 /* SEQHarmonicGridCell.m */,
+				416FA7721AAB1C1700CC09C2 /* SEQHarmonicGridCell.xib */,
+				41BD089A1AAB028700020457 /* SEQHarmonicGridCollectionView.h */,
+				41BD089B1AAB028700020457 /* SEQHarmonicGridCollectionView.m */,
+				412FF2681AAB868700124931 /* SEQHarmonicGridLayout.h */,
+				412FF2691AAB868700124931 /* SEQHarmonicGridLayout.m */,
+			);
+			name = "Harmonic Grid View";
 			sourceTree = "<group>";
 		};
 		AF6FE834D9460B80A9EB7E02 /* Pods */ = {
@@ -230,7 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4110D6671AAA6A3500963C3E /* Main.storyboard in Resources */,
+				416FA7741AAB1C1700CC09C2 /* SEQHarmonicGridCell.xib in Resources */,
+				41BD089E1AAB028700020457 /* SEQHarmonicGridViewController.xib in Resources */,
 				4110D66C1AAA6A3500963C3E /* LaunchScreen.xib in Resources */,
 				4110D6691AAA6A3500963C3E /* Images.xcassets in Resources */,
 			);
@@ -283,10 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4110D6641AAA6A3500963C3E /* SEQViewController.m in Sources */,
-				41C08B8B1AAA6B7E001960D9 /* SEQInternalInstrument.m in Sources */,
+				4110D6641AAA6A3500963C3E /* SEQHarmonicGridViewController.m in Sources */,
+				41BD089D1AAB028700020457 /* SEQHarmonicGridCollectionView.m in Sources */,
 				4110D6611AAA6A3500963C3E /* SEQAppDelegate.m in Sources */,
+				416FA7731AAB1C1700CC09C2 /* SEQHarmonicGridCell.m in Sources */,
 				4110D65E1AAA6A3500963C3E /* main.m in Sources */,
+				412FF26A1AAB868700124931 /* SEQHarmonicGridLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4110D6651AAA6A3500963C3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4110D6661AAA6A3500963C3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4110D66A1AAA6A3500963C3E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

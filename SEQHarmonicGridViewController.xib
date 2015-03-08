@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SEQViewController">
+            <connections>
+                <outlet property="collectionView" destination="jBU-yu-U11" id="u5N-oX-cUb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" alwaysBounceHorizontal="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jBU-yu-U11" customClass="SEQHarmonicGridCollectionView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="lRp-DQ-ZUR">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="TfX-yp-dQ5"/>
+                        <outlet property="delegate" destination="-1" id="VrB-WO-fTR"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jBU-yu-U11" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Vpt-ec-ZlA"/>
+                <constraint firstAttribute="bottom" secondItem="jBU-yu-U11" secondAttribute="bottom" id="Y1j-9t-K5s"/>
+                <constraint firstAttribute="trailing" secondItem="jBU-yu-U11" secondAttribute="trailing" id="cAS-WU-6u1"/>
+                <constraint firstItem="jBU-yu-U11" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="iyx-Jy-iYz"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
